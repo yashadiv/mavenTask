@@ -5,10 +5,9 @@
   <groupId>org.example</groupId>
   <artifactId>GeometryLibrary</artifactId>
   <version>1.0.0</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>GeometryLibrary</name>
-  <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -22,4 +21,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <modules>
+    <module>GeometryUtils</module>
+  </modules>
 </project>
